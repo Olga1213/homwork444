@@ -17,13 +17,13 @@ public class Main {
         if (temp >= 5) {
             System.out.println("сегодня тепло, можно идти без шапки");
         } else {
-            System.out.println("можно идти без шапки");
+            System.out.println("на улице холодно, нужно надеть шапку");
         }
 
 //3
 
         int speed = 63;
-        if (age >= 60) {
+        if (speed >= 60) {
             System.out.println("Если скорость превышена надо заплатить штраф");
         } else {
             System.out.println("скорость не превышена, можно ездить спокойно");
@@ -68,11 +68,10 @@ public class Main {
             } else {
                 if (two > three) {
                     System.out.println("two  максимум");
-                } else {
-                    System.out.println("three  максимум");
+                }
                 }
             }
         }
     }
-}
+
 
