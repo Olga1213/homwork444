@@ -32,9 +32,9 @@ public class Main {
         age = 19;
         if (age >= 2 && age <= 6) {
             System.out.println("если человеку от 2 до 6 лет,то ему нужно ходить в детский сад");
-        } else if (age <= 17) {
+        } else if (age >= 7 && age <= 17) {
             System.out.println("если человеку от 7 до 17лет,то ему нужно ходить в школу");
-        } else if (age > 24) {
+        } else if (age >= 18 && age <= 24) {
 
             System.out.println("если человеку от 18 до 24лет,то его место в университете");
         } else {
@@ -43,11 +43,11 @@ public class Main {
 
 //5
         age = 15;
-        if (age > 5) {
+        if (age < 5) {
             System.out.println("если ребенку меньше 5 лет,то он не может кататься на аттракционе");
-        } else if (age <= 14) {
+        } else if (age >= 5 && <=14){
             System.out.println("если ребенку больше 5 лет, но меньше 14, то он может кататься только в сопровождении взрослого");
-        } else if (age > 14) {
+        } else{
             System.out.println("если ребенку больше 14 лет,то он может кататься на аттракционе без сопровождения взрослого");
         }
 //6
@@ -69,9 +69,9 @@ public class Main {
                 if (two > three) {
                     System.out.println("two  максимум");
                 }
-                }
             }
         }
     }
+}
 
 
